@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Lobster+Two:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*----------------------------------------Colours */
+
+.ui-menu-color {
+    background-color: #FCF1DB;
+}
+
+.bg-color-name-title {
+    background-color: #FCF1DB;
+}
+
+/*----------------------------------------Speacial paddings/margins/text */
+
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #585353;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+
+/*----------------------------------------Heading */
+
+
+header {
+    background-color: #FCF1DB;
+    margin:0;
+}
+
+.heading {
+    margin-left: 50px;
+}
+
+.logo {
+    background: url("../images/mainlogo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #FCF1DB;
+    background-size: cover;
+    min-height: 300px;
+    max-width: 300px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.name {
+    font-family: "Lobster", sans-serif;
+    font-weight: 100;
+    font-size: 80px;
+    margin-top: 20px;
+}
+
+.title {
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 100px;
+}
+
+.list-inline-item:not(:last-child) {
+    margin:0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 100;
+    width: 100%;
+    text-decoration: none;
+    color: #585353;
+    height: 120px;
+    font-size: 36px;
+    padding-top: 30px;
+    display: block;
+}
+
+/*----------------------------------------Footer */
+
+footer {
+    background-color: #FCF1DB;
+    min-height: 120px;
+    margin:0;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    margin-top: 12px;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #8f8f8f;
+    background: #FCF1DB;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    text-align: center;
+    margin-top: 12px;
+    background-color: #8f8f8f;
+    color: #FCF1DB;
+}
+
+#footer-details {
+    padding:20px;
+}
+
+.payment-options {
+    width: 32px;
+    height: 32px;
+    margin-left: 0;
+    text-align: center;
+    color: #585353;
+    font-size: 20px;
+}
