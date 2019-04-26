@@ -21,7 +21,12 @@
 }
 
 .bg-color-order {
-    background-color: #ffffff;
+    background-color: #FCF1DB;
+}
+
+.container-fluid {
+    background-color: #FCF1DB;
+    margin:0;
 }
 
 /*----------------------------------------Speacial paddings/margins/text */
@@ -51,6 +56,7 @@ h5 {
 
 .inline-block {
     display: inline-block;
+    color: #654321;
 }
 
 
@@ -146,7 +152,7 @@ footer {
     margin-top: 13px;
     border-radius: 50%;
     font-size: 20px;
-    line-height: 30px;
+    line-height: 31px;
     text-align: center;
     color: #654321;
     background: #FCF1DB;
@@ -164,7 +170,7 @@ footer {
 }
 
 #footer-details {
-    padding:20px;
+    padding: 20px;
 }
 
 
@@ -192,20 +198,13 @@ ul.slides {
     display: block;
     position: relative;
     height: 600px;
+    width: inherit;
     margin: 0;
     padding: 0;
     overflow: hidden;
     list-style: none;
 }
 
-.slides * {
-    user-select: none;
-    -ms-user-select: none;
-    -moz-user-select: none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
-    -webkit-touch-callout: none;
-}
 
 ul.slides input {
     display: none; 
@@ -331,7 +330,7 @@ input:checked + .slide-container .nav label { display: block; }
     max-width: 70%;
 }
 
-button[type="submit"] {
+button {
     margin-top: 15px;
     margin-bottom: 20px;
     color: #585353;
