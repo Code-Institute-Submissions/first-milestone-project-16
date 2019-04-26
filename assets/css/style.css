@@ -100,6 +100,9 @@ header {
     color: #654321;
 }
 
+
+/*----------------------------------------Menu items */
+
 .list-inline-item:not(:last-child) {
     margin:0;
 }
@@ -115,6 +118,10 @@ header {
 #nav li {
     font-size: 14px;
     padding: 0;
+}
+
+.hvr-shadow-radial {
+    margin-top: 40px;
 }
 
 .menuitem {
@@ -152,7 +159,7 @@ footer {
     margin-top: 13px;
     border-radius: 50%;
     font-size: 20px;
-    line-height: 31px;
+    line-height: 33px;
     text-align: center;
     color: #654321;
     background: #FCF1DB;
@@ -375,4 +382,19 @@ button {
         margin-left: 15%;
         margin-right: 15%;        
     }
+}
+
+
+/*--------------------About Us----*/
+
+.description {
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 200;
+    text-align: center;
+    color: #654321;
+    font-size: 20px;
+    line-height: 1;
+    max-width: 800px;
+    display: inline-block;
+    margin: 5% 30%;
 }
