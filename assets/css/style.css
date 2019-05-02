@@ -398,3 +398,58 @@ button {
     display: inline-block;
     margin: 5% 30%;
 }
+
+
+/*--------------------Gallery----*/
+
+.gallery {
+  margin: 15px;
+  float: left;
+  width: 300px;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+  width: 300px;
+}
+
+.gallery img {
+  border: 3px solid #FCF1DB;
+  width: 298px;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 20px;
+  float: left;
+}
+
+@media (max-width: 767px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+   .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }   
+}
+
+@media (min-width: 992px) and (max-width: 1800px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }    
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
