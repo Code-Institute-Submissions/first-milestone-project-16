@@ -2,8 +2,8 @@
 README file for User Centric Frontend Development Milestone Project
 
 ##Links
-Github repository link to go here
-Website link to go here.
+https://sheldon18.github.io/first-milestone-project/
+https://milestone-project-sheldon18.c9users.io/index.html
 
 ##About this website
 This cake baker’s website is targeted for those interested in buying cakes and cupcakes occasions. The gallery and about section gives info about how this baker is all about creating cakes designed for individuals as per their requirement and its stand-out feature is that no two cakes are the same. The site has 4 pages for the front-end user centric project. But I will be developing it even more and adding more pages as a side project as I progress through the rest of the course.
