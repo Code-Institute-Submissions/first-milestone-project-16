@@ -243,6 +243,19 @@ ul.slides input {
     height: 100%;
 }
 
+@media (max-width: 767px) {
+  .slide-image { 
+    border: 5px;
+    display: block;
+    width: inherit;
+  }
+  .slide-image img {
+    width: 100%;  
+    max-width: 70%;
+    height: 100%;
+  }
+}
+
 .carousel-controls {
     position: absolute;
     top: 0;
@@ -379,7 +392,7 @@ button {
 
 /*-------------for desktop---------- */
 
-@media (min-width: 992px) and (max-width: 1800px) {
+@media (min-width: 992px) {
     .carousel {
         margin-left: 15%;
         margin-right: 15%;        
@@ -410,14 +423,8 @@ button {
 
 .row {
   display: -ms-flexbox;
-  display: -moz-flexbox;
-  display: -webkit-flexbox;
-  display: -o-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  -moz-flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  -o-flex-wrap: wrap;
   flex-wrap: wrap;
   padding: 0 4px;
 }
@@ -425,24 +432,33 @@ button {
 /* ----to create two equal columns that sits next to each other --- */
 .column {
   -ms-flex: 50%;
-  -moz-flex: 50%;
-  -webkit-flex: 50%;
-  -o-flex: 50%;
   flex: 50%;
-  padding: 0 4px;
+  padding: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  height: 300px;
+  position: relative;
 }
 
 .column img {
-  margin-top: 8px;
+  margin-top: 3px;
+  padding: 5px;
   vertical-align: middle;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.column img:hover {
+  margin-top: 3px;
+  padding: 5px;
+  vertical-align: middle;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.50), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 
 @media (max-width: 767px) {
   .column {
     -ms-flex: 60%;
-    -moz-flex: 60%;
-    -webkit-flex: 60%;
     flex: 60%;
     max-width: 60%;
     height: 100%;
@@ -452,30 +468,26 @@ button {
 @media (min-width: 768px) and (max-width: 991px) {
   .column {
     -ms-flex: 50%;
-    -moz-flex: 50%;
-    -webkit-flex: 100%;
     flex: 50%;
     max-width: 50%;
     height: 100%;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1800px) {
+@media (min-width: 992px) {
   .column {
     -ms-flex: 25%;
-    -moz-flex: 25%;
-    -webkit-flex: 100%;
     flex: 25%;
     max-width: 25%;
     height: 100%;
-  }   
+  }
 }
 
 /*--------------media queries-------*/
 
 @media (max-width: 767px) {
     .container-fluid {
-        width: 147%;
+        width: 148%;
     }
 }
 
@@ -485,7 +497,7 @@ button {
     }  
 }
 
-@media (min-width: 992px) and (max-width: 1800px) {
+@media (min-width: 992px) {
   .container-fluid {
         width: 100%;
     }    
