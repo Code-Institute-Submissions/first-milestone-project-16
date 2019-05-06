@@ -206,7 +206,7 @@ footer {
 ul.slides {
     display: block;
     position: relative;
-    height: 600px;
+    height: 650px;
     width: inherit;
     margin: 0;
     padding: 0;
@@ -374,7 +374,7 @@ button {
 
 @media (max-width: 767px) {
     .logo,
-    .carousel{
+    .carousel {
         margin-left: 5%;
         margin-right: 5%;
         
@@ -394,8 +394,8 @@ button {
 
 @media (min-width: 992px) {
     .carousel {
-        margin-left: 15%;
-        margin-right: 15%;        
+        margin-left: 24%;
+        margin-right: 24%;        
     }
 }
 
@@ -458,8 +458,6 @@ button {
 
 @media (max-width: 767px) {
   .column {
-    -ms-flex: 60%;
-    flex: 60%;
     max-width: 60%;
     height: 100%;
   }
@@ -487,14 +485,28 @@ button {
 
 @media (max-width: 767px) {
     .container-fluid {
-        width: 148%;
-    }
+        width: 100%;
+ }
+    .name {
+    font-family: "Lobster", sans-serif;
+    font-size: 40px;
+    margin-top: 20px;
+    color: #654321;
+    text-align: center;
+ }
+ .hvr-shadow-radial {
+    margin: 7px 0;
+ }
+ ul.slides {
+     height:300px;
+ }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
    .container-fluid {
         width: 100%;
-    }  
+    }
+    
 }
 
 @media (min-width: 992px) {
