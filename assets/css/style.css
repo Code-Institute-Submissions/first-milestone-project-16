@@ -2,7 +2,7 @@
 
 /*----body----*/
 
-
+.column3,
 .column {
     float: none;
     width: 100%;
@@ -28,7 +28,6 @@
 .container-fluid {
     background-color: #FCF1DB;
     margin:0;
-    width: 147%;
 }
 
 /*----------------------------------------Speacial paddings/margins/text */
@@ -440,6 +439,7 @@ button {
 }
 
 /* ----to create two equal columns that sits next to each other --- */
+.column3,
 .column {
   -ms-flex: 50%;
   flex: 50%;
@@ -450,19 +450,22 @@ button {
   position: relative;
 }
 
+.column3 img,
 .column img {
   margin-top: 3px;
-  padding: 5px;
+  padding: 2px;
   vertical-align: middle;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
+.column3 img:hover,
 .column img:hover {
   margin-top: 3px;
-  padding: 5px;
+  padding: 1px;
   vertical-align: middle;
   box-shadow: 0 14px 28px rgba(0,0,0,0.50), 0 10px 10px rgba(0,0,0,0.22);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
 
@@ -470,6 +473,12 @@ button {
   .column {
     max-width: 60%;
     height: 100%;
+    margin: 0;
+  }
+  .column3 {
+    max-width: 60%;
+    height: 100%;
+    margin: 0;
   }
 }
 
@@ -480,10 +489,22 @@ button {
     max-width: 50%;
     height: 100%;
   }
+  .column3 {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+    height: 100%;
+  }
 }
 
 @media (min-width: 992px) {
   .column {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+    height: 100%;
+  }
+  .column3 {
     -ms-flex: 25%;
     flex: 25%;
     max-width: 25%;
@@ -535,7 +556,11 @@ button {
  .col-sm-4 {
      padding-bottom: 10px;
  }
-} 
+ 
+ .column3 {
+    margin-top: -123px;
+ }
+}
 
 
 
